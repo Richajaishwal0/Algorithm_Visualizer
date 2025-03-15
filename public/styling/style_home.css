@@ -9,15 +9,13 @@ body {
   margin: 0px;
   flex-direction: column;
   background: #e0e5ec;
-  font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
-}
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-/* ///////////////////////NavBar Styling ///////////////////////// */
 .navlen {
   width: 100%;
   background: rgb(22, 2, 95);
   box-shadow: 2px 2px 3px #2d2d2e, -2px -2px 3px #ffffff;
-    padding:10px;
+  padding: 10px;
 }
 
 .navbar {
@@ -53,46 +51,26 @@ body {
   padding-right: 5px;
 }
 
-/* /////////////////////// Main content of Index ///////////////////////// */
 .main-content {
   margin-top: 50px;
-  width: 80%;
-  /* height: 95vh; */
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.main-content-logo {
-  align-self: center;
-  min-width: 50%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.main-content-logo img {
-  height: auto;
-  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .flex-cards {
-  width: 80%;
+  width:100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-
   margin-top: 30px;
 }
 
 .flex-card-items {
-  min-width: 50%;
+  min-width: 20%;
   padding: 20px;
   color: white;
   border-radius: 5px;
@@ -110,13 +88,19 @@ body {
 
 .first-card {
   background: rgb(22, 2, 95);
+  margin: 20px;
 }
 
 .second-card {
   background: rgb(22, 2, 95);
   margin-left: 5%;
+  margin: 20px;
 }
-
+.third-card {
+  background: rgb(22, 2, 95);
+  margin-left: 5%;
+  margin: 20px;
+}
 a:link,
 a:visited {
   margin: auto;
@@ -133,6 +117,12 @@ a:visited {
 
 li {
   padding: 5px;
+}
+.flex-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* Extra small devices (phones, 600px and down) */
