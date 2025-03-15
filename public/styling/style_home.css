@@ -1,0 +1,191 @@
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  background: #e0e5ec;
+  font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
+}
+
+/* ///////////////////////NavBar Styling ///////////////////////// */
+.navlen {
+  width: 100%;
+  background: rgb(22, 2, 95);
+  box-shadow: 2px 2px 3px #2d2d2e, -2px -2px 3px #ffffff;
+    padding:10px;
+}
+
+.navbar {
+  height: 5vh;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border: none;
+  /* font-size: larger; */
+  text-align: center;
+  font-weight: inherit;
+  background: transparent;
+}
+.element-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.element-left img {
+  height: 30px;
+}
+
+.fab {
+  padding-left: 1px;
+  padding-right: 5px;
+}
+
+/* /////////////////////// Main content of Index ///////////////////////// */
+.main-content {
+  margin-top: 50px;
+  width: 80%;
+  /* height: 95vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.main-content-logo {
+  align-self: center;
+  min-width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-content-logo img {
+  height: auto;
+  width: 100%;
+}
+
+.flex-cards {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.flex-card-items {
+  min-width: 50%;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.flex-card-items:hover {
+  cursor: pointer;
+  transform: scale(0.99);
+}
+
+.flex-card-items heading {
+  font-size: 2rem;
+}
+
+.first-card {
+  background: rgb(22, 2, 95);
+}
+
+.second-card {
+  background: rgb(22, 2, 95);
+  margin-left: 5%;
+}
+
+a:link,
+a:visited {
+  margin: auto;
+  background: transparent;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  /* font-size: larger;  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  display: inline-flexbox;
+  border: none;
+}
+
+/* ///////////////////////NavBar Styling  ENDS ///////////////////////// */
+
+li {
+  padding: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: small;
+  }
+
+  .navbar {
+    width: 95%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: small;
+  }
+
+  .navbar {
+    width: 95%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: large;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: larger;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: larger;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+}
