@@ -73,6 +73,9 @@ A total of `24 algorithms` have been implemented so far, with more to be added i
 
 ## Contributors
 
+- [Nitesh Shah](https://github.com/Niteshshah123)
+- [Harsh](https://github.com/Harsh14055)
+
 ### Acknowledgments
 
 Took inspiration from the following sources for some of the segments:
