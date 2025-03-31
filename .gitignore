@@ -1,24 +1,43 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing
 /coverage
 
-# production
+# Build and Production
 /build
+/.next
+/out  # Next.js static exports
+/.vercel
+/.netlify
 
-# misc
-.DS_Store
+# Misc
+.DS_Store  # macOS system file
+Thumbs.db  # Windows system file
+*.log  # Log files
+*.lock  # Lock files
+*.bak  # Backup files
+*.swp  # Swap files from editors like Vim
+
+# Environment Variables and Secrets
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# IDE & Editor Files
+/.idea  # JetBrains IDE (WebStorm, IntelliJ, etc.)
+/.vscode  # VS Code settings
+*.sublime-workspace  # Sublime Text workspace
+
+# npm / yarn logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.next
+
+# TypeScript Build Files

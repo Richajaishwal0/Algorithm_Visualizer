@@ -16,7 +16,6 @@ class Menu extends Component {
             // <div className="bg-gray-100 p-4 flex flex-wrap items-center gap-4">
             <div className="w-64 bg-gray-100 p-4 space-y-6">
                 <h2 className="text-lg font-semibold">Settings</h2>
-                
                 <CustomSlider
                     title="Numbers"
                     defaultValue={20}
@@ -35,7 +34,6 @@ class Menu extends Component {
                     step={1}
                     disable={this.props.disable}
                 />
-
                 <CustomSelect
                     title="Select Algorithm 1"
                     options={["Bubble Sort", "Selection Sort", "Insertion Sort", "Quick Sort"]}
@@ -62,7 +60,6 @@ class Menu extends Component {
                 >
                     Randomize
                 </Button>
-
                 <Button
                     className="w-full"
                     onClick={this.props.onViusalize}
@@ -71,7 +68,6 @@ class Menu extends Component {
                 >
                     Visualize
                 </Button>
-
             </div>
         );
     }
